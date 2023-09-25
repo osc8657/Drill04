@@ -36,7 +36,7 @@ while running:
     clear_canvas()
 
     tuk_ground.draw(TUK_WIDTH // 2, TUK_HEIGHT // 2)
-    character.clip_draw(frame * 100, 100 * 1, 100, 100, x, y)
+    character.clip_draw(frame * 108, 130, 108, 130, x, y)
 
     update_canvas()
     handle_events()
